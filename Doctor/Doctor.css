@@ -1,0 +1,184 @@
+/*header*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+	
+}
+
+header {
+    background-color: #83e6ff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul a:hover
+  {
+    color: #ffffff;
+  }
+  
+  nav ul li {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #00072e;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #83e6ff;
+    min-width: 100px;
+    padding: 10px;
+  }
+  
+  nav ul li:hover .submenu {
+    display: block;
+  }
+  
+  .login-signup
+  {
+    padding-right: 20px;
+
+  }
+
+  .login-signup button {
+    padding: 8px 15px;
+    margin-left: 15px;
+    background-color: #014a7a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-signup button.login {
+    background-color: #014a7a;
+  }
+
+/*card*/
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    position: relative;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 30px;
+}
+.container .mycard{
+    position: relative;
+    max-width: 220px;
+    height: 150px;
+    background: linear-gradient(90deg, #014a7a, #0088aa);
+    margin: 80px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 50px rgba(0,0,0,0.5);
+    transition: 0.4s ease-in-out;
+}
+.container .mycard:hover{
+    height: 420px;
+}
+.container .mycard .cimg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 3px 50px rgba(0,0,0,0.5);
+}
+.container .mycard .cimg img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.container .mycard .cdetail{
+    position:relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: left;
+    color: black;
+    font-family: monospace;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+.container .mycard:hover .cdetail{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -50px;
+}
+
+/*submit button*/
+.btt{
+    padding: -1rem 1rem;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.769);
+    border-radius: 0.6rem;
+    color:#000000;
+    text-decoration: none;
+}
+
+
+/*footer*/
+footer 
+{
+  background-color: #0088aa;
+  height: auto;
+  width: auto;
+  padding:0%;
+  text-align: center;
+}
+
+.social-media img {
+  padding-top: 10px;
+  width: 30px;
+  margin: 4px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #00072e;
+}
+
+.footer-bottom
+{
+  background: #00072e;
+  padding: 1px;
+}
+
+.footer-bottom p
+{
+  color: #ffffff;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}

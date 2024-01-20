@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Medical Portal</title>
+		<link rel = "stylesheet" href = "Book.css">
+	</head>
+	<body>
+		<header>
+			<div><img class = "logo" src = "LOGO MEDIZONE.png" alt = "This is a logo" height = "150px" width = "150px"></div>
+			<nav>
+			  <ul>
+				<li><a href="/Home Page/Home.html">Home</a></li>
+				<li>
+				  <a href="#">Places</a>
+				  <ul class="submenu">
+					<li><a href="/Medical center/Medical center.html">Medical Center</a></li>
+					<li><a href="/Hospital/Hospital.html">Hospitals</a></li>
+				  </ul>
+				<li><a href="/Doctor/Doctor.html">Doctors</a></li>
+				<li><a href="#">About Us</a></li>
+			  </ul>
+			</nav>
+			<div class="login-signup">
+			  <button class="login">Login</button>
+			  <button class="signup">Signup</button>
+			</div>
+		</header>
+		  <!-- Rest of the page content -->
+
+		  
+		
+			<div class = "hero">
+				
+				<form action="Book.php" method="POST">
+
+					<div class="input-group">
+						<input type="text" name="name" required="true">
+						<label>Name</label>	
+				 	</div>
+
+					<div class="input-group">
+						<input type="text" name="NIC" required="true">
+						<label>NIC</label>
+					</div>
+
+					<div class="input-group">
+						<input type="text" name="email" required="true">
+						<label>Email</label>
+					</div>
+
+					<div class="input-group">
+						<input type="text" name="phone" required="true">
+						<label>Phone</label>
+					</div>
+
+					<div class="input-group">
+						<select name = "Doctor_Specialization">
+							<option value="Specialixation">Select Doctor Specialization</option>
+							<option value="Physician">Physician</option>
+							<option value="Eye Surgeon">Eye Surgeon</option>
+							<option value="Pediatricion">Pediatricion</option>
+							<option value="Neurologist">Neurologist</option>
+							<option value="Cardiologist">Cardiologist</option>
+							<option value="Oncology">Oncology</option>
+						</select> 
+					</div>
+
+					<div class="input-group">
+						<select name = "Doctor_Name">
+							<option value="Doctor Name">Select Doctor Name</option>
+							<option value="Physician">Dr.Nimal Kumara de silva</option>
+							<option value="Eye Surgeon">Dr.Indika Disanayake</option>
+							<option value="Pediatricion">Dr.Sankalpa Wijesinghe</option>
+							<option value="Neurologist">Dr.Stefani de silva</option>
+							<option value="Cardiologist">Dr.Chamari Fernando</option>
+						</select> 
+					</div>
+
+					<div class="input-group">
+						<select name = "Place">
+							<optgroup label="Medical Center or Hospital"></optgroup>
+								<option value="Medical Center or Hospital">Select Medical Center or Hospital</option>
+								<option value="Baily Medical Center">Baily Medical Center</option>
+								<option value="Hurbor-Ucla Medical Center">Hurbor-Ucla Medical Center</option>
+								<option value="Polk Medical Center">Polk Medical Center</option>
+								<option value="Gateway Medical Center">Gateway Medical Center</option>
+								<option value="Blue Cross Medical Center">Blue Cross Medical Center</option>
+							<optgroup label="Hospital"></optgroup>	
+								<option value="Lanka Hospital">Lanka Hospital</option>
+								<option value="Nevil Fernando Hospital">Nevil Fernando Hospital</option>
+								<option value="Sri Jayawardanapura Hospital">Sri Jayawardanapura Hospital</option>
+								<option value="The National Hospital">The National Hospital</option>
+								<option value="Castle Hospital">Castle Hospital</option>
+						</select> 
+					</div>
+
+					<div class="input-group">
+					<input type="date" name="date" required>
+					
+					</div>
+
+					<button type="submit" value="submit"><a href = "/Payment Page finished/src/payment page.html" class="btt">Book Appointment</a></button>
+					
+				  </form>
+
+			</div>
+
+		<hr>
+
+		<footer>
+			<div class="social-media">
+			  <a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+			  <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+			  <a href="#" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+			</div>
+			<br>
+			<div class="footer-links">
+			  <a href="#">Contact Us</a>
+			  <a href="/Terms & Conditions/Terms and Conditions.html">Terms and Conditions</a>
+			  <a href="/Privacy policy/Privacy policy.html">Privacy Policy</a>
+			  <a href="#">FAQs</a>
+			</div>
+			<br>
+		
+			<div class="footer-bottom">
+			  <p>Copyright &copy; 2023 Designed by<span> M_L_B_15.2_07</span></p>
+			</div>
+		</footer>
+	</body>
+</html>

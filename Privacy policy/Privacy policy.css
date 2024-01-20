@@ -1,0 +1,106 @@
+/*Header*/
+header {
+  background-color: #83e6ff;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul a:hover
+{
+  color: #ffffff;
+}
+
+nav ul li {
+  position: relative;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #00072e;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #83e6ff;
+  min-width: 120px;
+  padding: 10px;
+}
+
+nav ul li:hover .submenu {
+  display: block;
+}
+
+.login-signup{
+  padding-right: 20px;
+}
+
+.login-signup button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #014a7a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-signup button.login {
+  background-color: #014a7a;
+}
+
+/*title*/
+.privacy{
+    font-family: 'Times New Roman';   
+}
+
+/*footer*/
+footer 
+  {
+    background-color: #0088aa;
+    height: auto;
+    width: auto;
+    padding:0%;
+    text-align: center;
+  }
+  
+  .social-media img {
+    padding-top: 10px;
+    width: 30px;
+    margin: 4px;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #00072e;
+  }
+
+  .footer-bottom
+  {
+    background: #00072e;
+    padding: 1px;
+  }
+  
+  .footer-bottom p
+  {
+    color: #ffffff;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
